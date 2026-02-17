@@ -1,4 +1,4 @@
-console.log('login functionality connected.')
+console.log('login functionality connected.');
 
 document.getElementById('login-btn').addEventListener("click", function () {
     // Logic:
