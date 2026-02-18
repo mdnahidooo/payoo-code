@@ -21,7 +21,7 @@ document.getElementById('login-btn').addEventListener("click", function () {
 
         // homepage connect
         // window.location.replace("/home.html");
-        window.location.assign("/home.html");
+        window.location.assign("home.html");
     }
     else {
 

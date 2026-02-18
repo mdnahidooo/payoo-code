@@ -24,3 +24,18 @@ function setBalance(value) {
     const balanceElement = document.getElementById("balance");
     balanceElement.innerText = value;
 }
+
+// Machine id > hide all > show id
+function showOnly(id) {
+    const addMoney = document.getElementById("add-money");
+    const cashout = document.getElementById("cashout");
+    // console.log(`Add Money- ${addMoney} , Cashout- ${cashout}`);
+
+    //sobay ke hide kore dew
+    addMoney.classList.add("hidden");
+    cashout.classList.add("hidden");
+
+    // id wala element ta ke show koro
+    const selected = document.getElementById(id);
+    selected.classList.remove("hidden");
+}
